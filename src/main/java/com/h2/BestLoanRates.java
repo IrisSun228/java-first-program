@@ -16,4 +16,8 @@ public class BestLoanRates {
         String name = scanner.nextLine();
         System.out.println("Hello " + name);
     }
+
+    public static float getRates(int loanTermInYears) {
+        return 0.0f;
+    }
 }
