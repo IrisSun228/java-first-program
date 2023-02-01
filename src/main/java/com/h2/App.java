@@ -16,6 +16,12 @@ public class App
     }
 
     private static int add(int[] numbers) {
-        return -1;
+        var sum = 0;
+
+        for (int number: numbers) {
+            sum += number;
+        }
+
+        return sum;
     }
 }
