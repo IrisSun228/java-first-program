@@ -12,4 +12,15 @@ public class Utilities {
 
         return out;
     }
+
+    public static int getIntValue(String in) {
+        int out = 0;
+
+        try {
+            out = Integer.parseInt(in);
+        } catch (NumberFormatException e) {
+            System.out.println(in + " cannot be converted into a 'float' value. Exiting program.");
+        }
+        return out;
+    }
 }
