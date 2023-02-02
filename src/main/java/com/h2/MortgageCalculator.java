@@ -31,4 +31,9 @@ public class MortgageCalculator {
 
         this.monthlyPayment = M;
     }
+
+    @Override
+    public String toString() {
+        return "hello";
+    }
 }
