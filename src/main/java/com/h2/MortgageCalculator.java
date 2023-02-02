@@ -40,4 +40,6 @@ public class MortgageCalculator {
 
         return "monthlyPayment: " + df.format(monthlyPayment);
     }
+
+    public static void main(String[] args) {}
 }
