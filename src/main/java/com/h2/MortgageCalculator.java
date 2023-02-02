@@ -21,4 +21,6 @@ public class MortgageCalculator {
 
         return interestRate / 12;
     }
+
+    public void calculateMonthlyPayment() {}
 }
