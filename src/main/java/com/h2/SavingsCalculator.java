@@ -41,6 +41,6 @@ public class SavingsCalculator {
     }
 
     public float calculate() {
-        return 0;
+        return sumOfCredits() - sumOfDebits();
     }
 }
