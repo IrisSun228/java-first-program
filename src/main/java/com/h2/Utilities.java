@@ -14,13 +14,25 @@ public class Utilities {
     }
 
     public static int getIntValue(String in) {
-        int out = 0;
+        int out = Integer.MIN_VALUE;
 
         try {
             out = Integer.parseInt(in);
         } catch (NumberFormatException e) {
             System.out.println(in + " cannot be converted into a 'float' value. Exiting program.");
         }
+        return out;
+    }
+
+    public static float getFloatValue(String in) {
+        float out = Float.MIN_VALUE;
+
+        try {
+            out = Float.parseFloat(in);
+        } catch (NumberFormatException e) {
+            System.out.println(in + " cannot be converted into a 'float' value. Exiting program.");
+        }
+
         return out;
     }
 }
